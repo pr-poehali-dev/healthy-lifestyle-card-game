@@ -162,7 +162,6 @@ export default function Index() {
           >
             <div className="card-inner">
               <div className="card-face card-back-face">
-                <img src={CARD_BACK} alt="Рубашка карты" className="card-img" />
                 <div className="card-shimmer" />
               </div>
 
