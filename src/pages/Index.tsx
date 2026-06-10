@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CARD_BACK = "https://cdn.poehali.dev/projects/ade8ee66-2862-4423-855f-c733c837cee6/files/fe181873-119f-43fd-9b93-3224399470dd.jpg";
+const CARD_BACK = "https://cdn.poehali.dev/projects/ade8ee66-2862-4423-855f-c733c837cee6/files/d56939de-fe98-493c-b274-a01f0929d358.jpg";
 
 const CARDS = [
   {
