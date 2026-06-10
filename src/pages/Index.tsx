@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CARD_BACK = "https://cdn.poehali.dev/projects/ade8ee66-2862-4423-855f-c733c837cee6/files/6b3b8982-cf29-477e-ac3a-4f1c078afdcc.jpg";
+const CARD_BACK = "https://cdn.poehali.dev/projects/ade8ee66-2862-4423-855f-c733c837cee6/files/6c104841-37f3-4d8f-9664-3d94b99a3715.jpg";
 
 const CARDS = [
   {
@@ -128,9 +128,8 @@ export default function Index() {
 
       <main className="main-content">
         <header className="header">
-          <div className="header-badge">✨ Карта дня</div>
           <h1 className="app-title">
-            Метафорические карты
+            Вектор
             <span className="title-accent"> ЗОЖ</span>
           </h1>
           <p className="app-subtitle">Загляни внутрь себя — позволь карте открыть послание дня</p>
@@ -196,8 +195,7 @@ export default function Index() {
             onClick={handleReveal}
             disabled={isFlipping}
           >
-            <span>{isFlipped ? "🔄" : "🌿"}</span>
-            <span>{isFlipped ? "Другая карта" : "Открыть карту дня"}</span>
+            {isFlipped ? "Другая карта" : "Открыть карту дня"}
           </button>
           {isFlipped && (
             <p className="hint">Нажми на карту или кнопку, чтобы получить новое послание</p>
